@@ -1,0 +1,11 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Custom component inside loading overlay content?
+    </ion-title>
+</ion-navbar>
+
+<ion-content padding class="home">
+    <p>Countdown test: <count-down initial="500"></count-down></p>
+    <button primary (click)="showLoading()">Show Simple HTML Loading Overlay</button>
+    <button primary (click)="showCustomLoading()">Show Custom Loading Overlay</button>
+</ion-content>
